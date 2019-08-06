@@ -1,3 +1,1 @@
-#DevOps
-*lesson3
-*this is Master Branch
+This is Brunch Number 3
