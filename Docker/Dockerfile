@@ -1,5 +1,5 @@
-FROM alpine
+FROM alpine:latest
 RUN apk update
 RUN apk upgrade
 RUN apk add git
-ENTRYPOINT exec git status
+ENTRYPOINT exec bash
