@@ -2,4 +2,4 @@ FROM alpine:latest
 RUN apk update
 RUN apk upgrade
 RUN apk add git
-ENTRYPOINT exec sh
+RUN git clone https://github.com/85Dimas85/DevOPS.git
