@@ -1,3 +1,4 @@
 git pull origin
 docker build -t nginx-image .
-#docker run  -v /home/dimas/DevOPS/Docker/nginx-cont/docker_dir:/ git-image 
+docker run --name nginx-cont -d -p 8080:8080 nginx-image 
+#docker run -p {your_local_port}:8080 {your image}.
