@@ -1,0 +1,137 @@
+<root>
+  <page path="/admin/createObjectMenu.html">
+    <usage userId="1" timestamp="1565803674146" />
+  </page>
+  <page path="/admin/editProject.html?tab=oauthConnections">
+    <usage userId="1" timestamp="1565808470669" />
+  </page>
+  <page path="/agents.html?tab=unauthorizedAgents">
+    <usage userId="1" timestamp="1565803479831" />
+  </page>
+  <page path="/admin/discoverRunners.html">
+    <usage userId="1" timestamp="1565803806183" />
+  </page>
+  <page path="/admin/vcsRootHealthStatusItems.html">
+    <usage userId="1" timestamp="1565864350853" />
+  </page>
+  <page path="/queue.html">
+    <usage userId="1" timestamp="1565807098655" />
+  </page>
+  <page path="/agentDetails.html">
+    <usage userId="1" timestamp="1565805007205" />
+  </page>
+  <page path="/admin/createObjectFromUrl.html">
+    <usage userId="1" timestamp="1565803675363" />
+  </page>
+  <page path="/admin/editBuildRunners.html">
+    <usage userId="1" timestamp="1565808019590" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeChangeLog">
+    <usage userId="1" timestamp="1565804912073" />
+  </page>
+  <page path="/plugins/priority-queue/editPriorityClass.html">
+    <usage userId="1" timestamp="1565804978984" />
+  </page>
+  <page path="/viewLog.html?tab=buildLog">
+    <usage userId="1" timestamp="1565808554636" />
+  </page>
+  <page path="/limitedPendingChangesLink.html">
+    <usage userId="1" timestamp="1565864279252" />
+  </page>
+  <page path="/viewLog.html?tab=buildResultsDiv">
+    <usage userId="1" timestamp="1565808549589" />
+  </page>
+  <page path="/projectPopup.html">
+    <usage userId="1" timestamp="1565808066022" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeIssueLog">
+    <usage userId="1" timestamp="1565804915460" />
+  </page>
+  <page path="/plugins/priority-queue/createPriorityClass.html">
+    <usage userId="1" timestamp="1565804972474" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeHistoryList">
+    <usage userId="1" timestamp="1565804908825" />
+  </page>
+  <page path="/admin/editRunType.html">
+    <usage userId="1" timestamp="1565808006333" />
+  </page>
+  <page path="/agents.html">
+    <usage userId="1" timestamp="1565864168609" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeSettings">
+    <usage userId="1" timestamp="1565804920566" />
+  </page>
+  <page path="/admin/editProject.html">
+    <usage userId="1" timestamp="1565808069370" />
+  </page>
+  <page path="/buildTypePopup.html">
+    <usage userId="1" timestamp="1565864282784" />
+  </page>
+  <page path="/changesLink.html">
+    <usage userId="1" timestamp="1565863705348" />
+  </page>
+  <page path="/agents.html?tab=registeredAgents">
+    <usage userId="1" timestamp="1565807260296" />
+  </page>
+  <page path="/plugins/priority-queue/priorityClassList.html">
+    <usage userId="1" timestamp="1565804975012" />
+  </page>
+  <page path="/agentDetails.html?tab=agentCompatibleConfigurations">
+    <usage userId="1" timestamp="1565805023518" />
+  </page>
+  <page path="/viewType.html">
+    <usage userId="1" timestamp="1565804902232" />
+  </page>
+  <page path="/admin/admin.html">
+    <usage userId="1" timestamp="1565863758676" />
+  </page>
+  <page path="/">
+    <usage userId="1" timestamp="1565864278398" />
+  </page>
+  <page path="/changes.html">
+    <usage userId="1" timestamp="1565804990154" />
+  </page>
+  <page path="/agentDetails.html?tab=agentBuildRunners">
+    <usage userId="1" timestamp="1565804609150" />
+  </page>
+  <page path="/admin/editBuild.html">
+    <usage userId="1" timestamp="1565864286898" />
+  </page>
+  <page path="/admin/buildTypeHealthStatusItems.html">
+    <usage userId="1" timestamp="1565864345008" />
+  </page>
+  <page path="/profile.html">
+    <usage userId="1" timestamp="1565804772787" />
+  </page>
+  <page path="/admin/editBuildTypeVcsRoots.html">
+    <usage userId="1" timestamp="1565864343533" />
+  </page>
+  <page path="/admin/editVcsRoot.html">
+    <usage userId="1" timestamp="1565864347194" />
+  </page>
+  <page path="/viewLog.html">
+    <usage userId="1" timestamp="1565807373353" />
+  </page>
+  <page path="/admin/projectHealthStatusItems.html">
+    <usage userId="1" timestamp="1565808082088" />
+  </page>
+  <page path="/admin/objectSetup.html">
+    <usage userId="1" timestamp="1565803775123" />
+  </page>
+  <page path="/agents.html?tab=unregisteredAgents">
+    <usage userId="1" timestamp="1565864115195" />
+  </page>
+  <page path="/buildTypeHealthStatusItems.html">
+    <usage userId="1" timestamp="1565804922162" />
+  </page>
+  <page path="/buildResultsSummary.html">
+    <usage userId="1" timestamp="1565864216753" />
+  </page>
+  <page path="/viewLog.html?tab=buildChangesDiv">
+    <usage userId="1" timestamp="1565804536022" />
+  </page>
+  <page path="/carpet.html">
+    <usage userId="1" timestamp="1565804990821" />
+  </page>
+</root>

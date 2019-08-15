@@ -1,0 +1,160 @@
+[2019-08-14 17:01:45,601]   INFO [ssing plugins 2] - ache.fs.impl.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/svn/map, create a new one
+[2019-08-14 17:01:45,601]   INFO [ssing plugins 2] - ache.fs.impl.MirrorManagerImpl - Restore mapping from existing repositories
+[2019-08-14 17:01:45,601]   INFO [ssing plugins 2] - ache.fs.impl.MirrorManagerImpl - No existing repositories found
+[2019-08-14 17:01:59,284]   INFO [ssing plugins 2] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2019-08-14 17:01:59,606]   INFO [ssing plugins 1] - gers.vcs.git.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/git/map, create a new one
+[2019-08-14 17:01:59,621]   INFO [ssing plugins 1] - gers.vcs.git.MirrorManagerImpl - Restore mapping from existing repositories
+[2019-08-14 17:01:59,622]   INFO [ssing plugins 1] - gers.vcs.git.MirrorManagerImpl - No existing repositories found
+[2019-08-14 17:04:22,490]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the periodical checking for changes task
+[2019-08-14 17:13:03,725]   INFO [ssing plugins 3] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2019-08-14 17:15:43,294]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the periodical checking for changes task
+[2019-08-14 17:19:35,133]   INFO [ssing plugins 3] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2019-08-14 17:21:41,427]   INFO [ssing plugins 2] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2019-08-14 17:22:53,698]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the periodical checking for changes task
+[2019-08-14 17:29:13,077]   WARN [nio-8111-exec-2] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2019-08-14 17:29:27,716]   WARN [nio-8111-exec-2] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/85Dimas85/DevOPS.git' command failed.real URL is https://github.com/85Dimas85/DevOPS
+abort: 'https://github.com/85Dimas85/DevOPS' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-UDS3MR1FfvqHmqZAs2MWSDCWPwLemVRLqCwld4/zfwH0vhv7I6RYmDnMnNAVQKP1YYvqnccOCH4iOhFaUUyrjw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-2e9090135c22aad5f56c2f72dcba7880.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-c0wYv9vreyKS48XiGmf3sC5aV6Mj9KgwbV6/ND+MRm+YgTD2Ztxg5AfwZgpebFsTkY3jZ6RejCMHqBrA1Mw/3Q==" rel="styleshee
+---%<---
+!
+
+[2019-08-14 17:31:29,933]   INFO [nio-8111-exec-7] -      jetbrains.buildServer.VCS - Running test connection for "jetbrains.git" {instance id=-2, parent internal id=-1, parent id=dummy_jetbrains.git, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}
+[2019-08-14 17:31:36,678]   INFO [ical executor 3] -      jetbrains.buildServer.VCS - Collecting changes from VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=1, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}, state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 3e411e474519e3b1874be9fd75a6ba2ecdb9d676}} to VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=2, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}, state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 3e411e474519e3b1874be9fd75a6ba2ecdb9d676}}, requested by: Periodical run by the schedule
+[2019-08-14 17:32:06,204]   INFO [nio-8111-exec-4] -      jetbrains.buildServer.VCS - Running test connection for "jetbrains.git" {instance id=-3, parent internal id=-1, parent id=dummy_jetbrains.git, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}
+[2019-08-14 17:32:16,719]   INFO [ical executor 4] -      jetbrains.buildServer.VCS - Collecting changes from VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=1, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}, state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/l4hw: null, refs/heads/master: 3e411e474519e3b1874be9fd75a6ba2ecdb9d676}} to VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}, state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add, refs/heads/master: null}}, requested by: Periodical run by the schedule
+[2019-08-14 17:32:29,148]   INFO [ical executor 3] - ggers.vcs.git.FetchCommandImpl - Git fetch process finished for: https://85Dimas85@github.com/85Dimas85/DevOPS.git in directory: /data/teamcity_server/datadir/system/caches/git/git-1925BF5A.git, took 51168ms
+[2019-08-14 17:32:29,155]   WARN [ical executor 3] - ggers.vcs.git.FetchCommandImpl - Error output produced by git fetch:
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+
+[2019-08-14 17:32:29,694]   INFO [ical executor 3] -      jetbrains.buildServer.VCS - Finish collecting changes successfully from VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=1, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}, state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 3e411e474519e3b1874be9fd75a6ba2ecdb9d676}} to VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=2, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}, state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 3e411e474519e3b1874be9fd75a6ba2ecdb9d676}}; 0 changes collected 0 changes persisted, total time: 53s,039ms, persisting time: 71ms, requested by: Periodical run by the schedule
+[2019-08-14 17:32:37,846]   INFO [ical executor 4] - ggers.vcs.git.FetchCommandImpl - Git fetch process finished for: https://85Dimas85@github.com/85Dimas85/DevOPS.git in directory: /data/teamcity_server/datadir/system/caches/git/git-1925BF5A.git, took 8312ms
+[2019-08-14 17:32:37,847]   WARN [ical executor 4] - ggers.vcs.git.FetchCommandImpl - Error output produced by git fetch:
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+
+[2019-08-14 17:32:37,961]   WARN [ical executor 4] - les.SubmoduleAwareTreeIterator - Ignore submodule error: "The 'https://85Dimas85@github.com/85Dimas85/DevOPS.git' repository has a submodule in the '781c0cc714185e416d6cccda46353bf1f52a87fc' commit at the 'Docker/nginx-cont/docker_dir/DevOPS' path, but has not .gitmodules configuration in the root directory". It seems to be fixed in one of the later commits.
+[2019-08-14 17:32:39,580]   WARN [ical executor 4] - les.SubmoduleAwareTreeIterator - Ignore submodule error: "The 'https://85Dimas85@github.com/85Dimas85/DevOPS.git' repository has a submodule in the '781c0cc714185e416d6cccda46353bf1f52a87fc' commit at the 'Docker/nginx-cont/docker_dir/DevOPS' path, but has not .gitmodules configuration in the root directory". It seems to be fixed in one of the later commits.
+[2019-08-14 17:32:41,956]   INFO [ical executor 4] -      jetbrains.buildServer.VCS - Finish collecting changes successfully from VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=1, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/master"}, state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/l4hw: null, refs/heads/master: 3e411e474519e3b1874be9fd75a6ba2ecdb9d676}} to VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}, state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add, refs/heads/master: null}}; 11 changes collected 11 changes persisted, total time: 25s,240ms, persisting time: 2s,013ms, requested by: Periodical run by the schedule
+[2019-08-14 17:32:52,453]   INFO [gers executor 1] - ers.vcs.SingleBranchVcsTrigger - Enqueue BuildPromotion{myId=1, myPersonal=false, myBuildTypeId='bt1', myModificationId=null, myRevisions=[], myAssociatedBuildId=null, myBranch=null} reason: pending changes detected, the last change accepted by trigger rules [4938e8051a59af5153d3711e30a3ad20e9578add] Remove usless comments
+ by taciturn1985just
+[2019-08-14 17:32:55,725]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the checking for changes task for build promotion: Build promotion {promotion id=1, configuration={id=DevOPS_Build, internal id=bt1}}
+[2019-08-14 18:27:36,582]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the checking for changes task for build promotion: Build promotion {promotion id=2, configuration={id=DevOPS_Build, internal id=bt1}}
+[2019-08-14 18:48:48,466]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the checking for changes task for build promotion: Build promotion {promotion id=3, configuration={id=DevOPS_Build, internal id=bt1}}
+[2019-08-14 19:18:08,399]   INFO [ical executor 4] -      jetbrains.buildServer.VCS - Cannot load current state for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}: List remote refs failed: Unknown host: github.com: Temporary failure in name resolution
+[2019-08-14 19:19:55,281]   INFO [ical executor 5] -      jetbrains.buildServer.VCS - Cannot load current state for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}: List remote refs failed: Unknown host: github.com: Temporary failure in name resolution
+[2019-08-14 20:18:43,850]   INFO [ical executor 1] -      jetbrains.buildServer.VCS - Cannot load current state for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}: List remote refs failed: Unknown host: github.com: Temporary failure in name resolution
+[2019-08-14 20:19:48,683]   INFO [ical executor 2] -      jetbrains.buildServer.VCS - Collecting changes for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"} from state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add}} to state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add}}, requested by: Periodical run by the schedule
+[2019-08-14 20:19:48,739]   INFO [ical executor 2] -      jetbrains.buildServer.VCS - Finish collecting changes successfully for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"} from state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add}} to state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add}}; 0 changes collected 0 changes persisted, total time: 56ms, persisting time: 1ms, requested by: Periodical run by the schedule
+[2019-08-14 20:21:19,572]   INFO [ical executor 3] -      jetbrains.buildServer.VCS - Cannot load current state for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"}: List remote refs failed: Unknown host: github.com: Temporary failure in name resolution
+[2019-08-15 10:02:27,608]   INFO [ssing plugins 3] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2019-08-15 10:03:30,420]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the periodical checking for changes task
+[2019-08-15 10:03:47,394]   INFO [ical executor 1] -      jetbrains.buildServer.VCS - Collecting changes for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"} from state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add}} to state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: a2e85367a0f1b7a6ad7d9e3dcd6d6ec44c271525}}, requested by: Periodical run by the schedule
+[2019-08-15 10:04:02,112]   INFO [ical executor 1] - ggers.vcs.git.FetchCommandImpl - Git fetch process finished for: https://85Dimas85@github.com/85Dimas85/DevOPS.git in directory: /data/teamcity_server/datadir/system/caches/git/git-1925BF5A.git, took 11346ms
+[2019-08-15 10:04:02,113]   WARN [ical executor 1] - ggers.vcs.git.FetchCommandImpl - Error output produced by git fetch:
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+
+[2019-08-15 10:04:02,749]   INFO [ical executor 1] -      jetbrains.buildServer.VCS - Finish collecting changes successfully for VCS root "https://github.com/85Dimas85/DevOPS.git#refs/heads/master" {instance id=3, parent internal id=1, parent id=DevOPS_HttpsGithubCom85Dimas85DevOPSGitRefsHeadsMaster, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l4hw"} from state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: 4938e8051a59af5153d3711e30a3ad20e9578add}} to state RepositoryState{defaultBranch='refs/heads/l4hw', revisions={refs/heads/l4hw: a2e85367a0f1b7a6ad7d9e3dcd6d6ec44c271525}}; 1 changes collected 1 changes persisted, total time: 15s,361ms, persisting time: 511ms, requested by: Periodical run by the schedule
+[2019-08-15 10:04:13,696]   INFO [gers executor 1] - ers.vcs.SingleBranchVcsTrigger - Enqueue BuildPromotion{myId=4, myPersonal=false, myBuildTypeId='bt1', myModificationId=null, myRevisions=[], myAssociatedBuildId=null, myBranch=null} reason: pending changes detected, the last change accepted by trigger rules [a2e85367a0f1b7a6ad7d9e3dcd6d6ec44c271525] set my user to be owner of ./docker_dir
+ by taciturn1985just
+[2019-08-15 10:16:02,288]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the checking for changes task for build promotion: Build promotion {promotion id=4, configuration={id=DevOPS_Build, internal id=bt1}}
+[2019-08-15 10:19:56,175]   INFO [io-8111-exec-10] -      jetbrains.buildServer.VCS - Running test connection for "jetbrains.git" {instance id=-1, parent internal id=-1, parent id=dummy_jetbrains.git, description: "https://github.com/85Dimas85/DevOPS.git#refs/heads/l5hw"}
+[2019-08-15 10:19:57,125]   INFO [io-8111-exec-10] -      jetbrains.buildServer.VCS - Error occurred in test connection: jetbrains.buildServer.vcs.VcsException: Cannot find revision of the default branch 'refs/heads/l5hw' of vcs root 'jetbrains.git'
+	at jetbrains.buildServer.buildTriggers.vcs.git.GitVcsSupport.lambda$getCurrentState$0(GitVcsSupport.java:192)
+	at jetbrains.buildServer.buildTriggers.vcs.git.RepositoryManagerImpl.runWithDisabledRemove(RepositoryManagerImpl.java:256)
+	at jetbrains.buildServer.buildTriggers.vcs.git.GitVcsSupport.getCurrentState(GitVcsSupport.java:177)
+	at jetbrains.buildServer.buildTriggers.vcs.git.TestConnectionCommand.checkFetchConnection(TestConnectionCommand.java:95)
+	at jetbrains.buildServer.buildTriggers.vcs.git.TestConnectionCommand.testConnection(TestConnectionCommand.java:68)
+	at jetbrains.buildServer.buildTriggers.vcs.git.GitVcsSupport.lambda$testConnection$2(GitVcsSupport.java:319)
+	at jetbrains.buildServer.buildTriggers.vcs.git.RepositoryManagerImpl.runWithDisabledRemove(RepositoryManagerImpl.java:256)
+	at jetbrains.buildServer.buildTriggers.vcs.git.GitVcsSupport.testConnection(GitVcsSupport.java:316)
+	at jetbrains.vcs.api.services.impl.TestConnectionServiceProvider$1.testConnection(TestConnectionServiceProvider.java:2)
+	at jetbrains.buildServer.controllers.admin.projects.TestConnectionCommand.runTestConnection(TestConnectionCommand.java:12)
+	at jetbrains.buildServer.controllers.admin.projects.TestConnectionCommand.doTestConnection(TestConnectionCommand.java:7)
+	at jetbrains.buildServer.controllers.admin.projects.EditVcsRootsController.doPost(EditVcsRootsController.java:91)
+	at jetbrains.buildServer.controllers.BaseFormXmlController$1.handleRequest(BaseFormXmlController.java:54)
+	at jetbrains.buildServer.controllers.AjaxRequestProcessor.processRequest(AjaxRequestProcessor.java:48)
+	at jetbrains.buildServer.controllers.BaseFormXmlController.doHandle(BaseFormXmlController.java:52)
+	at jetbrains.buildServer.controllers.BaseController.handleRequestInternal(BaseController.java:114)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:174)
+	at jetbrains.buildServer.controllers.BaseController.handleRequest(BaseController.java:93)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at jetbrains.buildServer.maintenance.TeamCityDispatcherServlet.processedByMainServlet(TeamCityDispatcherServlet.java:7)
+	at jetbrains.buildServer.maintenance.TeamCityDispatcherServlet.service(TeamCityDispatcherServlet.java:23)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at jetbrains.buildServer.web.jsp.JspPrecompilerFilter.doFilter(JspPrecompilerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at jetbrains.buildServer.web.DisableSessionIdFromUrlFilter.doFilter(DisableSessionIdFromUrlFilter.java:4)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at jetbrains.buildServer.web.UserIdProviderFilter.doFilter(UserIdProviderFilter.java:10)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at jetbrains.buildServer.web.NodeInfoHeaderFilter.doFilter(NodeInfoHeaderFilter.java:2)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:107)
+	at jetbrains.buildServer.diagnostic.web.DiagnosticFilter.doFilter(DiagnosticFilter.java:12)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:112)
+	at jetbrains.buildServer.web.DependencyParametersCalculationContextFilter.doFilter(DependencyParametersCalculationContextFilter.java:6)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:112)
+	at jetbrains.buildServer.web.HttpSecurityHeadersFilter.doFilter(HttpSecurityHeadersFilter.java:31)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:112)
+	at jetbrains.buildServer.web.CSRFFilter.doFilter(CSRFFilter.java:112)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:112)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:73)
+	at jetbrains.buildServer.web.DelegatingFilter.doFilter(DelegatingFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at jetbrains.buildServer.web.ResponseFragmentFilter.doFilter(ResponseFragmentFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

@@ -1,0 +1,1 @@
+{"events":[{"info":{"infoType":"ImageInfo","name":"nginx","repo":"library","tag":"latest","digest":"sha256:4733136e5c3c63c6fea37ebbecd6962ed54c3d1bdded1e82bae972c97d8b8772\n","contextLine":"build docker image (Docker)","timestamp":"Aug 14, 2019 6:48:55 PM"},"eventName":"pull"}]}
