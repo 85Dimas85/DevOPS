@@ -1,0 +1,90 @@
+15-Aug-2019 10:01:12.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.40
+15-Aug-2019 10:01:13.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 10 2019 14:31:19 UTC
+15-Aug-2019 10:01:13.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.40.0
+15-Aug-2019 10:01:13.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+15-Aug-2019 10:01:13.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-55-generic
+15-Aug-2019 10:01:13.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Aug-2019 10:01:13.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk/jre
+15-Aug-2019 10:01:13.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_192-b12
+15-Aug-2019 10:01:13.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Aug-2019 10:01:13.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+15-Aug-2019 10:01:13.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+15-Aug-2019 10:01:13.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+15-Aug-2019 10:01:13.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseCGroupMemoryLimitForHeap
+15-Aug-2019 10:01:13.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+15-Aug-2019 10:01:13.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Aug-2019 10:01:13.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Aug-2019 10:01:13.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Aug-2019 10:01:13.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Aug-2019 10:01:13.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+15-Aug-2019 10:01:13.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=350m
+15-Aug-2019 10:01:13.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+15-Aug-2019 10:01:13.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+15-Aug-2019 10:01:13.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+15-Aug-2019 10:01:13.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+15-Aug-2019 10:01:13.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Aug-2019 10:01:13.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+15-Aug-2019 10:01:13.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+15-Aug-2019 10:01:13.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+15-Aug-2019 10:01:13.097 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+15-Aug-2019 10:01:13.630 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:01:13.780 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Aug-2019 10:01:13.808 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2582 ms
+15-Aug-2019 10:01:13.920 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Aug-2019 10:01:13.921 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.40
+15-Aug-2019 10:01:13.981 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+15-Aug-2019 10:01:27.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [13,946] ms
+15-Aug-2019 10:01:27.938 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:01:27.983 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 14173 ms
+15-Aug-2019 10:28:24.697 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Aug-2019 10:28:24.708 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:28:24.711 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Aug-2019 10:28:26.958 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Aug-2019 10:28:26.960 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Aug-2019 10:28:26.980 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:28:26.984 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:47:14.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.40
+15-Aug-2019 10:47:14.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 10 2019 14:31:19 UTC
+15-Aug-2019 10:47:14.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.40.0
+15-Aug-2019 10:47:14.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+15-Aug-2019 10:47:14.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-55-generic
+15-Aug-2019 10:47:14.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Aug-2019 10:47:14.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk/jre
+15-Aug-2019 10:47:14.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_192-b12
+15-Aug-2019 10:47:14.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Aug-2019 10:47:14.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+15-Aug-2019 10:47:14.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+15-Aug-2019 10:47:14.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+15-Aug-2019 10:47:14.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseCGroupMemoryLimitForHeap
+15-Aug-2019 10:47:14.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+15-Aug-2019 10:47:14.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Aug-2019 10:47:14.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Aug-2019 10:47:14.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Aug-2019 10:47:14.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Aug-2019 10:47:14.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+15-Aug-2019 10:47:14.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=350m
+15-Aug-2019 10:47:14.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+15-Aug-2019 10:47:14.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j.configuration=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+15-Aug-2019 10:47:14.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+15-Aug-2019 10:47:14.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+15-Aug-2019 10:47:14.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Aug-2019 10:47:14.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+15-Aug-2019 10:47:14.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+15-Aug-2019 10:47:14.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+15-Aug-2019 10:47:14.120 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+15-Aug-2019 10:47:14.346 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:47:14.400 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Aug-2019 10:47:14.424 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1397 ms
+15-Aug-2019 10:47:14.509 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Aug-2019 10:47:14.511 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.40
+15-Aug-2019 10:47:14.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+15-Aug-2019 10:47:26.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [12,121] ms
+15-Aug-2019 10:47:26.664 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 10:47:26.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 12298 ms
+15-Aug-2019 14:03:50.286 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 14:03:50.616 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Aug-2019 14:04:33.318 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Aug-2019 14:04:34.873 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Aug-2019 14:04:34.875 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Aug-2019 14:04:34.893 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+15-Aug-2019 14:04:34.897 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]

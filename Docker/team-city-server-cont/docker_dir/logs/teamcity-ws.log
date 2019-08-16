@@ -1,8 +1,0 @@
-[2019-08-14 17:00:03,588]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/8.5.40
-[2019-08-14 17:11:07,875]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/8.5.40
-[2019-08-14 17:16:31,841]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/8.5.40
-[2019-08-14 17:20:34,111]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/8.5.40
-[2019-08-14 19:07:11,360]   INFO [nio-8111-exec-8] - etbrains.buildServer.WEBSOCKET - Failed to read/write WebSocket message for session session '6b' ('dimas' {id=1}): java.io.IOException: java.nio.channels.ClosedChannelException (enable debug to see stacktrace)
-[2019-08-14 19:07:12,255]   WARN [nio-8111-exec-1] - etbrains.buildServer.WEBSOCKET - Failed to send message 'ping#Ping' to session 6b: java.io.IOException: Connection reset by peer (enable debug to see stacktrace)
-[2019-08-14 19:07:12,631]   WARN [nio-8111-exec-1] - etbrains.buildServer.WEBSOCKET - Closing session 6b: UNEXPECTED_CONDITION Failed to send message
-[2019-08-15 10:01:36,117]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/8.5.40
