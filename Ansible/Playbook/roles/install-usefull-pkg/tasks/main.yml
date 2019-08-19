@@ -1,0 +1,8 @@
+---
+- name: Install usefull packages
+  package:
+   name: "{{ item }}"
+   state: latest
+  with_items:
+  - "mc"
+  - "bash-completion"

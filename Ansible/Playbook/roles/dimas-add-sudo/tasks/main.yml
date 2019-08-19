@@ -1,0 +1,7 @@
+---
+- name: add dimas to sudoers
+  lineinfile:
+   path: /etc/sudoers
+   backup: yes
+   line: "dimas ALL=(ALL) NOPASSWD: ALL"
+   insertafter: EOF 

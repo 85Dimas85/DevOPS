@@ -1,0 +1,8 @@
+---
+- name: copy my index page
+  copy:
+   src: /home/dimas/data/nginx/index.html
+   dest: /var/www/html
+  notify:
+  - restart nginx 
+   
