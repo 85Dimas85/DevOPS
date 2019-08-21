@@ -1,0 +1,28 @@
+---
+- name: make root dir for running on port 8080
+  file:
+   path: /var/www/html/8080
+   state: directory
+
+- name: copy my index page
+  copy:
+   src: /home/dimas/data/nginx/data/index-8080.html
+   dest: /var/www/html/8080/index.html
+  notify:
+  - restart nginx 
+
+- name: copy nginx 8080 config
+  copy:
+   src: /home/dimas/data/nginx/conf/8080
+   dest: /etc/nginx/sites-available
+  notify:
+  - restart nginx
+
+- name: enable site 8080
+  file: 
+   src: /etc/nginx/sites-available/8080
+   dest: /etc/nginx/sites-enabled/8080
+   state: link
+  notify:
+  - restart nginx
+

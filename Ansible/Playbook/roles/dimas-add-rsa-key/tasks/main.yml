@@ -1,0 +1,5 @@
+---
+- name: add dimas rsa-key
+  authorized_key: 
+   user: dimas
+   key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDmf/f9evGGb7RSDzU9Svd1aZuG/b4Bg07DppKWfnoYvH0m5rhU2nnz+wUtyTWZ6f7sI7yX1G+X8ZEol+qk/JdJKDGpFHbEPi5CsCnlGhMmkdIP/HLx+nRlvN7L/aHFc6mPWIw+4nOYXHyqxglq1Pc9OPYJDH92ljD7iFHUee3TisfooXrEfTvXwZooqOUcYboQUKPiRCASf185J73QDcsrO3nKuUBBin7AroBL9ql3CWi7+XB1SrC9v9N6BHPaqRSpI8WWwG5WYkdLBuvRmT1QqMDsrM4Tprh9ZH1pXPASYD84KQRfTfgWbfLcEydG9BZik7lCThLUqdi/omJRWKZx dimas@ubuntu"

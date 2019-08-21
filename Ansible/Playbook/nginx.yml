@@ -1,0 +1,9 @@
+---
+- name: install nginx with my index page 
+  hosts: servers
+
+  roles:
+  - install-nginx
+  - add-index-page
+  - add-index-page-8080
+ 

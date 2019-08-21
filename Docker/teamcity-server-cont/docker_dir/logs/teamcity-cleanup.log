@@ -1,0 +1,36 @@
+[2019-08-14 17:03:03,453]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-14 17:03:03,453]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-14 17:03:03,485]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-15 03:00:00.000
+[2019-08-14 17:03:03,485]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-14 17:14:53,835]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-14 17:14:53,846]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-14 17:14:53,880]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-15 03:00:00.000
+[2019-08-14 17:14:53,880]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-14 17:19:56,538]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-14 17:19:56,561]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-14 17:19:56,584]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-15 03:00:00.000
+[2019-08-14 17:19:56,584]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-14 17:22:22,774]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-14 17:22:22,774]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-14 17:22:22,797]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-15 03:00:00.000
+[2019-08-14 17:22:22,797]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-15 10:03:09,119]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-15 10:03:09,307]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-15 10:03:09,323]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-16 03:00:00.000
+[2019-08-15 10:03:09,323]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-15 10:49:22,167]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-15 10:49:22,179]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-15 10:49:22,185]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-16 03:00:00.000
+[2019-08-15 10:49:22,186]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-15 11:09:03,817]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.3" {id=1}
+[2019-08-15 11:09:19,682]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.3-1" {id=2}
+[2019-08-15 11:09:39,293]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.4" {id=3}
+[2019-08-15 11:09:49,437]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.5" {id=4}
+[2019-08-15 12:47:40,749]   INFO -  jetbrains.buildServer.CLEANUP - Removed 9 multi-node tasks finished before 2019-08-15 04:47:40.726
+[2019-08-16 09:33:21,953]   INFO -  jetbrains.buildServer.CLEANUP - Max cleanup duration is set to 0 seconds
+[2019-08-16 09:33:22,167]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup time has been set to 3:00 daily
+[2019-08-16 09:33:22,183]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-17 03:00:00.000
+[2019-08-16 09:33:22,183]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2019-08-16 09:55:30,681]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.3-1" {id=7}
+[2019-08-16 09:55:44,260]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.4" {id=5}
+[2019-08-16 09:55:52,191]   INFO -  jetbrains.buildServer.CLEANUP - Removing agent Unregistered agent "ip_172.17.0.5" {id=6}
